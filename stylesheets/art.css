@@ -1,0 +1,74 @@
+body {
+	/*I want the height 5x the height of the viewport*/
+	/*100vh = 100% of the viewport*/
+	height: 500vh;
+	background-color: #eee9e9;
+	transition: 0.8s all;
+	margin: 0;
+
+}
+
+h1, h3{
+	text-align: center;
+}
+
+.banner {
+	position: fixed;
+	left: 15%;
+	width: 20%;
+	height: 10%;
+	text-align: center;
+	background-color: #f4f4f4;
+	top: 12.6%;
+	color: black;
+	transition: 0.8s all;
+	font-size: 30px;
+	z-index: 40;
+
+}
+img{
+	width: 30%;
+	height: 60%;
+	
+}
+
+.NMB{
+	margin-top: 10%;
+}
+
+.ATree{
+	margin-top: 15%;
+}
+
+.Doom{
+	margin-top: 15%;
+}
+
+.Eye{
+	margin-top: 15%;
+}
+
+.Rose{	
+	margin-top: 35%;
+}
+
+.One{
+  margin-top: 30%;
+  max-width: 1450px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  z-index: 0;
+  height: 700px;
+  text-align: center;
+}
+
+
+
+
+
+p{
+	text-align: center;
+}
+
+

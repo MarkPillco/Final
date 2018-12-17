@@ -1,0 +1,41 @@
+img{
+	margin: 0 auto;
+	width: 40%;
+	height: 40%;
+	display: block;
+
+}
+
+.selfie > img {
+	margin-top: 20px;
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	float: left;
+	margin-left: 27%;
+	
+	
+	
+}
+
+.about{
+	margin-left: 2%;
+	width: 500px;
+	height: 300px;
+	display: inline-block;
+}
+
+.Drawing1{
+	width:80%;
+	height: 80%;
+	margin: 0 auto;
+}
+p > div {
+	width: 905px;
+	height: 204px;
+	margin:0 auto;
+	margin-top: 10px;
+
+
+}
+

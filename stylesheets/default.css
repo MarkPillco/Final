@@ -1,0 +1,142 @@
+body{
+background-color: #eee9e9;
+font-family: 'Oswald', sans-serif;
+ 
+}
+
+h1{
+     width: 100%;
+     text-align: center;
+     margin: auto;    
+    color: #f4f4f4;
+    /*text-decoration: none;*/
+    font-size: 46px;
+    cursor: pointer;
+    
+
+}
+
+h2{
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #e5d5d5;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+}
+
+h3{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    color: #373737;
+}
+
+.Header >a {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 10px; 
+    margin-bottom: 3px;
+    display: inline-block;
+    width: 2%;
+    text-align: center;
+    font-weight: 300px;
+}   
+
+
+.Center{
+    height: 200px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+color: #454545;
+}
+
+h1:visited{
+color: #454545;
+}
+
+header {
+    height: 70px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header > h1 {
+    width: calc(100% - 160px);
+    text-align: center;
+    font-size: 20px;
+    color: #373737;
+}
+header > .top {
+    position: absolute;
+    left: 20px;
+}
+header > .top a.menu_icon i {
+    color: #000;
+    font-size: 40px;
+    padding-top: 5px;
+    transition: .2s ease;
+    z-index: 1;
+}
+header > .top a.menu_icon:hover i {
+    color: #C0B283;
+}
+nav.menu {
+    width: 300px;
+    min-height: calc(50vh - 121px);
+    background-color: #eee9e9;
+    position: absolute;
+    left: -300px;
+    transition: .3s all;
+    z-index: 1;
+}
+nav.menu > a {
+    display: block;
+    padding: 5px;
+    margin: 15px 0 0px 20px;
+    color: #373737;
+    text-transform: uppercase;
+    z-index: 1;
+}
+div {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+.menu_show {
+    left: 0!important;
+}
+
+.container {
+  margin-top: 25%;
+  max-width: 1450px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  z-index: 0;
+  height: 700px;
+  text-align: center;
+
+
+}
+
+
+
